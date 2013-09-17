@@ -1,0 +1,51 @@
+<RestResponse xmlns="http://www.intuit.com/sb/cdm/v2" xmlns:xdb="http://xmlns.oracle.com/xdb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation ="http://www.intuit.com/sb/cdm/v2 ../common/RestDataFilter.xsd">
+  <SalesTaxCodes>
+    <SalesTaxCode>
+      <Id idDomain="QB">7</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreatedBy>app</CreatedBy>
+        <CreateTime>2010-01-07T18:22:51.0Z</CreateTime>
+        <LastModifiedBy>app</LastModifiedBy>
+        <LastUpdatedTime>2010-01-07T18:22:51.0Z</LastUpdatedTime>
+      </MetaData>
+      <ExternalKey idDomain="QB">7</ExternalKey>
+      <Synchronized>true</Synchronized>
+      <Name>WA</Name>
+      <Active>true</Active>
+      <Taxable>true</Taxable>
+    </SalesTaxCode>
+    <SalesTaxCode>
+      <Id idDomain="QB">6</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreatedBy>app</CreatedBy>
+        <CreateTime>2010-01-07T18:22:39.0Z</CreateTime>
+        <LastModifiedBy>app</LastModifiedBy>
+        <LastUpdatedTime>2010-01-07T18:22:39.0Z</LastUpdatedTime>
+      </MetaData>
+      <ExternalKey idDomain="QB">6</ExternalKey>
+      <Synchronized>true</Synchronized>
+      <Name>MN</Name>
+      <Active>true</Active>
+      <Taxable>true</Taxable>
+      <Desc>Min tax codes</Desc>
+    </SalesTaxCode>
+    <SalesTaxCode>
+      <Id idDomain="QB">5</Id>
+      <SyncToken>1</SyncToken>
+      <MetaData>
+        <CreatedBy>app</CreatedBy>
+        <CreateTime>2010-01-07T17:48:41.0Z</CreateTime>
+        <LastModifiedBy>app</LastModifiedBy>
+        <LastUpdatedTime>2010-01-07T17:48:41.0Z</LastUpdatedTime>
+      </MetaData>
+      <ExternalKey idDomain="QB">5</ExternalKey>
+      <Synchronized>true</Synchronized>
+      <Name>TX</Name>
+      <Active>true</Active>
+      <Taxable>false</Taxable>
+      <Desc>Texas non taxable</Desc>
+    </SalesTaxCode>
+  </SalesTaxCodes>
+</RestResponse>
