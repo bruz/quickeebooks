@@ -55,9 +55,9 @@ module Quickeebooks
         xml_accessor :sales_term_name, :from => 'SalesTermName'
         xml_accessor :sales_rep_id, :from => 'SalesRepId'
         xml_accessor :sales_rep_name, :from => 'SalesRepName'
-        xml_accessor :sales_tax_code_id, :from => 'SalesTaxCodeId'
+        xml_accessor :sales_tax_code_id, :from => 'SalesTaxCodeId', :as => Quickeebooks::Windows::Model::Id
         xml_accessor :sales_tax_code_name, :from => 'SalesTaxCodeName'
-        xml_accessor :tax_id, :from => 'TaxId'
+        xml_accessor :tax_id, :from => 'TaxId', :as => Quickeebooks::Windows::Model::Id
         xml_accessor :tax_name, :from => 'TaxName'
         xml_accessor :tax_group_id, :from => 'TaxGroupId'
         xml_accessor :tax_group_name, :from => 'TaxGroupName'
