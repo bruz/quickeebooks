@@ -3,13 +3,13 @@ require 'uri'
 require 'cgi'
 require 'quickeebooks/common/logging'
 
-class IntuitRequestException < Exception
+class IntuitRequestException < StandardError
   attr_accessor :code, :cause
   def initialize(msg)
     super(msg)
   end
 end
-class AuthorizationFailure < Exception; end
+class AuthorizationFailure < StandardError; end
 
 module Quickeebooks
   module Windows
@@ -156,6 +156,7 @@ module Quickeebooks
           unless headers.has_key?('Content-Type')
             headers['Content-Type'] = 'text/xml'
           end
+          puts "HTTP Request: #{body}"
           response = do_http_post(url, body.strip, params, headers)
 
           result = nil
